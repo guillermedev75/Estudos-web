@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+}
+
+.borda{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    border: 15px black double;
+}

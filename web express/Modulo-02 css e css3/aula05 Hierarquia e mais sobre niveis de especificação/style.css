@@ -1,0 +1,13 @@
+p{
+    color: blue;
+}
+
+.header1{
+    background: yellow;
+    height: 100px;
+    width: 100%;
+}
+
+.header1 p{
+    color: red;
+}

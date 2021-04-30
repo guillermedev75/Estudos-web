@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+}
+.el1 {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: orange;
+    vertical-align: middle;
+}
+
+.el2 {
+    display: inline-block;
+    vertical-align: middle;
+}

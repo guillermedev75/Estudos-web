@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+}
+
+.box{
+    width: 100%;
+    height: 100px;
+    background-color: purple;
+    position: relative;
+}
+
+.box p{
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}

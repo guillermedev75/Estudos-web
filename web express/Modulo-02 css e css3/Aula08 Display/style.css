@@ -1,0 +1,7 @@
+.el1{
+    display: inline-block;
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}

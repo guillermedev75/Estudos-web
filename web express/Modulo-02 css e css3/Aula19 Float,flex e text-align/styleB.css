@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+}
+
+*{
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 100%;
+    padding: 0 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content{
+    background-color: red;
+    width: 33.3%;
+    border: 2px solid black;
+}

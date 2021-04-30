@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+}
+
+.pai{
+    width: 200px;
+    height: 200px;
+    background: brown;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.filho{
+    width: 400px;
+    height: 400px;
+    background: blue;
+}

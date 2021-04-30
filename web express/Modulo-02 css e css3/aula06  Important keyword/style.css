@@ -1,0 +1,13 @@
+body{
+    background: lightgrey;
+    margin: 0;
+    padding: 0;
+}
+
+header.header1 p{
+    color: pink;
+}
+
+p{
+    color: red !important;
+}
