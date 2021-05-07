@@ -1,0 +1,15 @@
+<script>
+
+    var anoNascimento = prompt('Em que ano você nasceu?')
+    var anoAtual = prompt('Em que ano estamos?')
+
+    while(anoNascimento >= anoAtual){
+        alert('Por favor, insira eu ano de nascimento corretamente')
+        anoNascimento = prompt('Em que ano você nasceu?')
+    }
+
+    var idade = anoAtual - anoNascimento
+
+    alert('Sua idade é: ' + idade)
+
+</script>
