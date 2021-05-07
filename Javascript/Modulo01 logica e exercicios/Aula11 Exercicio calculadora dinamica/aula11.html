@@ -1,0 +1,30 @@
+<script>
+
+    var nInit = prompt('Insira o primeiro número:')
+    var signal = prompt('Insira o sinal:')
+
+    while(signal != '+' && signal != '-' && signal != '/' && signal != '*'){
+        alert('Insira um sinal valido!')
+        var signal = prompt('Insira o sinal:')
+    }
+
+    var nEnd = prompt('Insira o segundo número:')
+
+    nInit = parseInt(nInit)
+    nEnd = parseInt(nEnd)
+
+    var resultado = 0
+
+    if(signal == "+"){
+        resultado = nInit + nEnd
+    } else if(signal == '-'){
+        resultado = nInit - nEnd
+    }else if(signal == '/'){
+        resultado = nInit / nEnd
+    }else if(signal == '*'){
+        resultado = nInit * nEnd
+    }
+
+    alert("O resultado é: "+resultado)
+
+</script>
