@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="p1">Clique para ver o resultado</p>
+
+<script>
+ function loadDoc(){
+    var xhttp = new XMLHttpRequest()
+    xhttp.open('GET','https://api-d1-test.herokuapp.com/api/filter',true)
+    xhttp.onreadystatechange = function() {
+
+
+        if(this.readyState == 4 && this.status == 200){
+			resp = JSON.parse(this.responseText)
+			var teste = ""
+			for(var i = 0; i < resp.length; i++){
+				teste += "Name: " +  resp[i].name + " " + " Quantity : " + resp[i].quantity + "</br>"
+
+			}
+			document.getElementById('p1').innerHTML = teste;
+            }
+    }
+    xhttp.send()
+} 
+</script>
+  <button onclick="loadDoc();">Request</button>
+</body>
+</html>

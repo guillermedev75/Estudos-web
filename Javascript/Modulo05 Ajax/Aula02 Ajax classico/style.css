@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+.container{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.clear{
+    clear: both;
+}
+
+#filtros{
+    width: 200px;
+    height: 400px;
+    float: left;
+    display: inline-block;
+}
+#filtros button{
+    display: inline-block;
+    width: 200px;
+    margin: 2px 0;
+}
+
+table{
+    background-color: lightgray;
+    float: right;
+}
+table tr{
+    height: 30px;
+}
+
+table th{
+    border: solid black 2px;
+    padding: 2px 10px;
+    width: 150px;
+    text-align: left;
+}
+
+table td{
+    border: solid black 1px;
+    width: 200px;
+    padding: 2px 10px;
+    background-color: grey;
+    text-align: center;
+}

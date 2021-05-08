@@ -1,0 +1,28 @@
+<script>
+
+    function pessoa(){
+        this.nome = 'guillerme'
+        this.idade = '12anos'
+        this.printNome = function(nome){
+            alert(nome)
+        }
+    }
+
+    function animal(nome,peso){
+        if(nome == undefined){
+            nome = 'sem nome'
+        }
+
+        if(peso == undefined){
+            peso = 'sem peso'
+        }
+
+        this.nome = nome
+        this.peso = peso
+    }
+
+    animal = new animal("gato")
+
+    alert(animal.nome+' '+animal.peso)
+
+</script>
