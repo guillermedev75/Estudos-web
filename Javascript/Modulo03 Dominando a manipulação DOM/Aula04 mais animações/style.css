@@ -1,0 +1,16 @@
+.conteudo h2 span{
+    cursor: pointer;
+}
+
+.conteudo p{
+    overflow: hidden;
+    height: 10px;
+    transition: 1s;
+    background-color: royalblue;
+    color: white;
+    padding: 2px;
+}
+
+.show{
+    height: 60px !important;
+}
